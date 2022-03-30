@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B6705BB-9922-4573-BA5E-6DFFC6AF3532}</ProjectGuid>
+    <ProjectName>pyrti1516e</ProjectName>
+    <PythonVersion>3.6</PythonVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(SolutionDir)SolutionSettings.props" />
+    <Import Project="$(SolutionDir)OpenRTI.props" />
+    <Import Project="$(SolutionDir)OpenRTI_Release.props" />
+    <Import Project="$(SolutionDir)Python.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(SolutionDir)SolutionSettings.props" />
+    <Import Project="$(SolutionDir)OpenRTI.props" />
+    <Import Project="$(SolutionDir)OpenRTI_Debug.props" />
+    <Import Project="$(SolutionDir)Python.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(SolutionDir)SolutionSettings.props" />
+    <Import Project="$(SolutionDir)OpenRTI.props" />
+    <Import Project="$(SolutionDir)OpenRTI_Debug.props" />
+    <Import Project="$(SolutionDir)Python.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(SolutionDir)SolutionSettings.props" />
+    <Import Project="$(SolutionDir)OpenRTI.props" />
+    <Import Project="$(SolutionDir)OpenRTI_Release.props" />
+    <Import Project="$(SolutionDir)Python.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CodeAnalysisRuleSet>CppCoreCheckConstRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)include\rti1516ev;$(SolutionDir)src\OpenRTI;$(SolutionDir)src\OpenRTI\vsbuild;$(SolutionDir)\tests\rti1516ev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENRTI_DLL;PYMODULENAME=$(ProjectName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)include\rti1516ev;$(SolutionDir)src\OpenRTI;$(SolutionDir)src\OpenRTI\vsbuild;$(SolutionDir)\tests\rti1516ev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENRTI_DLL;PYMODULENAME=$(ProjectName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)include\rti1516ev;$(SolutionDir)src\OpenRTI;$(SolutionDir)src\OpenRTI\vsbuild;$(SolutionDir)\tests\rti1516ev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENRTI_DLL;PYMODULENAME=$(ProjectName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)include\rti1516ev;$(SolutionDir)src\OpenRTI;$(SolutionDir)src\OpenRTI\vsbuild;$(SolutionDir)\tests\rti1516ev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENRTI_DLL;PYMODULENAME=$(ProjectName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)src\OpenRTI\OpenRTI.vcxproj">
+      <Project>{1A1A66B8-408A-301F-AA77-DFD4708C8C6E}</Project>
+      <Name>OpenRTI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\rti1516ev\fedtime1516ev.vcxproj">
+      <Project>{ac5b586d-f120-3715-bc9c-fc80dd945c84}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\rti1516ev\rti1516ev.vcxproj">
+      <Project>{dee8a809-6531-30d3-9292-e70c38ed75fc}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Module.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Target Name="_ValidatePythonInstall" BeforeTargets="PrepareForBuild">
+    <Error Condition="$(PythonHome) == ''" Text="Python $(PythonTag) is not installed. Please install Python $(PythonTag) and try again." />
+    <Error Condition="$(PythonDevVersion) == ''" Text="Python development files are not installed. Please add the development files, or repair your existing installation." />
+    <Warning Condition="$(PythonCorePDBVersion) == ''" Text="Python debug symbols are not installed. Installing the symbols through the Python installer is strongly recommended." />
+  </Target>
+</Project>

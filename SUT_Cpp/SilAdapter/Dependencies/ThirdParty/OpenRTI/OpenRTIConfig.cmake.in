@@ -1,0 +1,8 @@
+set(OPENRTI_VERSION "@OPENRTI_VERSION@")
+
+@PACKAGE_INIT@
+
+set_and_check(OPENRTI_INCLUDE_DIR "@PACKAGE_CMAKE_INSTALL_INCLUDEDIR@")
+
+include("${CMAKE_CURRENT_LIST_DIR}/OpenRTITargets.cmake")
+check_required_components(OpenRTI)

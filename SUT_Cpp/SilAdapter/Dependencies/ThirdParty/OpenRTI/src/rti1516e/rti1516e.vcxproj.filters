@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DataElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncodingExceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederateAmbassador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAfixedArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAfixedRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAfloat64Interval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAfloat64Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAfloat64TimeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAinteger64Interval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAinteger64Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAinteger64TimeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAlogicalTimeFactoryFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAopaqueData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAvariableArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAvariantRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalTimeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalTimeInterval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullFederateAmbassador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeBounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTI1516ELogicalTimeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTIambassador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTIambassadorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTIambassadorImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Typedefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableLengthData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenRTI\dprintf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataElements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HLAhandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9EE5D17F-9483-399A-A6CE-662AEF0771B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fc3df556-8b54-4467-a3e6-72c9d622c1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\encoding">
+      <UniqueIdentifier>{f38ea1cd-fd96-4db5-89ab-b7a44bb5c0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time">
+      <UniqueIdentifier>{10e01ea9-22c4-4ea9-955c-2be7d01623d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{af672aa3-0bba-4847-bcbe-1c34a24e355a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Encoding.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleImplementation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTI1516Efloat64TimeFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTI1516Einteger64TimeFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTI1516ELogicalTimeFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIambassadorImplementation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableLengthDataImplementation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\FederateAmbassador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\Handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\LogicalTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\LogicalTimeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\LogicalTimeInterval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\NullFederateAmbassador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\RangeBounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\RTI1516.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\RTIambassador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\RTIambassadorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\SpecificConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\Typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\VariableLengthData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\BasicDataElements.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\DataElement.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\EncodingConfig.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\EncodingExceptions.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\HLAfixedArray.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\HLAfixedRecord.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\HLAopaqueData.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\HLAvariableArray.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\HLAvariantRecord.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\time\HLAfloat64Interval.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\time\HLAfloat64Time.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\time\HLAfloat64TimeFactory.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\time\HLAinteger64Interval.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\time\HLAinteger64Time.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\time\HLAinteger64TimeFactory.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenRTI\dprintf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rti1516e\RTI\encoding\HLAhandle.h">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rti1516e.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\share\rti1516e\HLAstandardMIM.xml">
+      <Filter>Shared</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\share\rti1516e\IEEE1516-DIF-2010.xsd" />
+    <None Include="..\..\share\rti1516e\IEEE1516-FDD-2010.xsd" />
+    <None Include="..\..\share\rti1516e\IEEE1516-OMT-2010.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\RoomTemperatureControl">
+      <UniqueIdentifier>{20c4042f-81c8-45f3-b8fd-ab7737d7ca5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Panel">
+      <UniqueIdentifier>{18c2d895-2fce-4828-b2d6-7c4eb2bd4469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Panel">
+      <UniqueIdentifier>{6528249d-d5b7-455d-81dd-cc1bf6e1470e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Panel\_Internal">
+      <UniqueIdentifier>{74677c9d-0305-4ea8-a86e-59427dc79924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Panel\_Internal">
+      <UniqueIdentifier>{21c5f93c-4ae7-43e2-af8d-91f6bf486a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RoomTemperatureControl">
+      <UniqueIdentifier>{076f87fd-4f7c-48e3-9c54-19caa906f6cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\TypeLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\IHeating.cpp">
+      <Filter>Source Files\RoomTemperatureControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\ISensor.cpp">
+      <Filter>Source Files\RoomTemperatureControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\RoomTemperatureControl_Initialization.cpp">
+      <Filter>Source Files\RoomTemperatureControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Deserializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DistributedObjectBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DoConsumedMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DoMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DoProvidedMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel\_Internal.cpp">
+      <Filter>Source Files\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel\Panel_Initialization.cpp">
+      <Filter>Source Files\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel\_Internal\_Internal_Initialization.cpp">
+      <Filter>Source Files\Panel\_Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\ThreadContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\TypeLib.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\RoomTemperatureControl_Types.hpp">
+      <Filter>Header Files\RoomTemperatureControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\IHeating.hpp">
+      <Filter>Header Files\RoomTemperatureControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\ISensor.hpp">
+      <Filter>Header Files\RoomTemperatureControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\RoomTemperatureControl_Initialization.hpp">
+      <Filter>Source Files\RoomTemperatureControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Accessor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Deserializer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DistributedObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DistributedObjectBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoConsumedData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoConsumedMethod.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoMethod.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoProvidedData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoProvidedMethod.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Optional.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Serialization.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Serializer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\StrongType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\State.hpp">
+      <Filter>Header Files\RoomTemperatureControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\EmbeddedMember.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel\_Internal.hpp">
+      <Filter>Header Files\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel\Panel_Types.hpp">
+      <Filter>Header Files\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel\_Internal\_Internal_Types.hpp">
+      <Filter>Header Files\Panel\_Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\Panel\Panel_Initialization.hpp">
+      <Filter>Source Files\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\Panel\_Internal\_Internal_Initialization.hpp">
+      <Filter>Source Files\Panel\_Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\Path.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\ThreadContext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

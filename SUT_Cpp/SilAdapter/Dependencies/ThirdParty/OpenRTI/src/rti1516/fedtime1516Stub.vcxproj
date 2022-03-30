@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{662BEBC6-6AAB-32F8-A196-78C52F1B6B27}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>fedtime1516Stub</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="..\..\SolutionSettings.props" />
+    <Import Project="..\..\OpenRTI.props" />
+    <Import Project="..\..\OpenRTI_Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="..\..\SolutionSettings.props" />
+    <Import Project="..\..\OpenRTI.props" />
+    <Import Project="..\..\OpenRTI_Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="..\..\SolutionSettings.props" />
+    <Import Project="..\..\OpenRTI.props" />
+    <Import Project="..\..\OpenRTI_Release.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="..\..\SolutionSettings.props" />
+    <Import Project="..\..\OpenRTI.props" />
+    <Import Project="..\..\OpenRTI_Release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include\rti1516\;$(ProjectDir)..\OpenRTI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BUILDING_FEDTIME;RTI_DISABLE_WARNINGS;OPENRTI_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /DEF</AdditionalOptions>
+      <Name>libfedtime1516d.dll</Name>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\rti1516;$(SolutionDir)src\OpenRTI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BUILDING_FEDTIME;RTI_DISABLE_WARNINGS;OPENRTI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <Name>libfedtime1516d.dll</Name>
+      <AdditionalOptions>%(AdditionalOptions) /DEF</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include\rti1516\;$(ProjectDir)..\OpenRTI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;BUILDING_FEDTIME;RTI_DISABLE_WARNINGS;OPENRTI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <Name>libfedtime1516.dll</Name>
+      <AdditionalOptions>%(AdditionalOptions) /DEF</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include\rti1516\;$(ProjectDir)..\OpenRTI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;BUILDING_FEDTIME;RTI_DISABLE_WARNINGS;OPENRTI_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /DEF</AdditionalOptions>
+      <Name>libfedtime1516.dll</Name>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="RTI1516fedTime.cpp" />
+    <ClCompile Include="HLAfloat64Interval.cpp" />
+    <ClCompile Include="HLAfloat64Time.cpp" />
+    <ClCompile Include="HLAfloat64TimeFactory.cpp" />
+    <ClCompile Include="HLAinteger64Interval.cpp" />
+    <ClCompile Include="HLAinteger64Time.cpp" />
+    <ClCompile Include="HLAinteger64TimeFactory.cpp" />
+    <ClCompile Include="LogicalTimeFactoryFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\rti1516\RTI\Enums.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\Exception.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\FederateAmbassador.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\Handle.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\HLAfloat64Interval.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\HLAfloat64Time.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\HLAfloat64TimeFactory.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\HLAinteger64Interval.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\HLAinteger64Time.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\HLAinteger64TimeFactory.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\LogicalTime.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\LogicalTimeFactory.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\LogicalTimeInterval.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\NullFederateAmbassador.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\RangeBounds.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\RTI1516.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\RTI1516fedTime.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\RTIambassador.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\RTIambassadorFactory.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\SpecificConfig.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\Typedefs.h" />
+    <ClInclude Include="..\..\include\rti1516\RTI\VariableLengthData.h" />
+    <ClInclude Include="HandleImplementation.h" />
+    <ClInclude Include="RTI1516float64TimeFactory.h" />
+    <ClInclude Include="RTI1516integer64TimeFactory.h" />
+    <ClInclude Include="RTI1516LogicalTimeFactory.h" />
+    <ClInclude Include="RTIambassadorImplementation.h" />
+    <ClInclude Include="VariableLengthDataImplementation.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

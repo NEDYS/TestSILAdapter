@@ -1,0 +1,2108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OpenRTI::FDD1516EContentHandler" Collapsed="true">
+    <Position X="26" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAACQBAAEAAAABAIAEAgAAAAgAABA=</HashCode>
+      <FileName>FDD1516EFileReader.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FDD1516ContentHandler" Collapsed="true">
+    <Position X="28.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAAACAAACABAAEAAAAAAAAEAgAAAAgAAAA=</HashCode>
+      <FileName>FDD1516FileReader.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FEDContentHandler" Collapsed="true">
+    <Position X="82.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACBABAACAABAACABAAEAAAAAAAAEAgAgAAgAAAA=</HashCode>
+      <FileName>FEDFileReader.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FEDErrorHandler" Collapsed="true">
+    <Position X="89.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FEDFileReader.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FederationServer" Collapsed="true">
+    <Position X="28.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACSAIAAAQBABAQAIAAAAAAEQAAAAAAAhACBAECA=</HashCode>
+      <FileName>ServerNode.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerMessageDispatcher">
+    <Position X="0.5" Y="20.75" Width="2" />
+    <NestedTypes>
+      <Class Name="OpenRTI::ServerMessageDispatcher::DispatchFunctor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServerNode.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="OpenRTI::ServerMessageDispatcher::ConnectHandleMessagePair" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServerNode.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="OpenRTI::ServerMessageDispatcher::ConnectHandleMessagePairList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServerNode.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAIAAIAAAQAIAIAAAACIAAggAAAAEAAAAIAgE=</HashCode>
+      <FileName>ServerNode.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Clock" Collapsed="true">
+    <Position X="87.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAABAAAQAAAABIQAgAAAIAAAAgAAgAAAAAgA=</HashCode>
+      <FileName>Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractConnect" Collapsed="true">
+    <Position X="37" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAFAACAAAAAAAAAIAAEAAgAAA=</HashCode>
+      <FileName>AbstractConnect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractLogicalTime" Collapsed="true">
+    <Position X="39.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AbstractLogicalTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractMessageDispatcher" Collapsed="true">
+    <Position X="2.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractMessageDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FunctorMessageDispatcher&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAggAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractMessageDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ConstFunctorMessageDispatcher&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractMessageDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SharedPtr&lt;T&gt;" Collapsed="true">
+    <Position X="87.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EUAAKAAAAAAEABMAAAAAQgAAAAEBAAAAAQAgAAABAAQ=</HashCode>
+      <FileName>SharedPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractMessageEncoding" Collapsed="true">
+    <Position X="63.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAACAAAAMAAAEAAIgABAggAAAkAAAAAAA=</HashCode>
+      <FileName>AbstractMessageEncoding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractMessageQueue" Collapsed="true">
+    <Position X="48.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIEAECAAAAA=</HashCode>
+      <FileName>AbstractMessageQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractMessageReceiver" Collapsed="true">
+    <Position X="48.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAECAAgAA=</HashCode>
+      <FileName>AbstractMessageReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractMessageSender">
+    <Position X="52.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAIAAAAAAgAA=</HashCode>
+      <FileName>AbstractMessageSender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractProtocolLayer">
+    <Position X="59" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAACEAAAAAAAAABAABAYAgAAAAAAA=</HashCode>
+      <FileName>AbstractProtocolLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractProtocolSocket" Collapsed="true">
+    <Position X="78.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAQAAAAAAAgAAAAAAEAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>AbstractProtocolSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractServer">
+    <Position X="67.25" Y="1.75" Width="2.25" />
+    <NestedTypes>
+      <Class Name="OpenRTI::AbstractServer::_PostingMessageSender" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="OpenRTI::AbstractServer::_SendingMessageSender" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="OpenRTI::AbstractServer::_MessageConnectHandlePairList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="OpenRTI::AbstractServer::_DoneOperation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="OpenRTI::AbstractServer::_Queue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="OpenRTI::AbstractServer::_Operation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="OpenRTI::AbstractServer::_DisconnectOperation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="OpenRTI::AbstractServer::_OperationList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="OpenRTI::AbstractServer::_ConnectOperation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="OpenRTI::AbstractServer::_MessageConnectHandlePair" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="OpenRTI::AbstractServer::_Connect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AbstractServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgEAACgAAEUgBAQAIIgBACAAACCwEgAABAI=</HashCode>
+      <FileName>AbstractServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerOptions" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAgAAAAAAAAAIhAEAAAAAAAgAQAIAECAAAAAAEAAA=</HashCode>
+      <FileName>ServerOptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractServerNode" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAASgAAAIAAAAAIAAAAIQgAAAAAAA=</HashCode>
+      <FileName>AbstractServerNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractSocketEvent">
+    <Position X="10.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAAgAAAADEAAAEAAAAgBAAAAQACTAAAAAA=</HashCode>
+      <FileName>AbstractSocketEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Socket" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="OpenRTI::Socket::PrivateData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Socket.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAAJAgACAAAAA=</HashCode>
+      <FileName>Socket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketEventDispatcher" Collapsed="true">
+    <Position X="75.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAARAACAAAGEIAAQCAAAAAAAAAQAygAAAAAA=</HashCode>
+      <FileName>SocketEventDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Ambassador&lt;T&gt;" Collapsed="true">
+    <Position X="13.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DE3sJLLHscc45C87zcdoSlTsbbO2ylys2B1aAJ/U9To=</HashCode>
+      <FileName>Ambassador.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Atomic" Collapsed="true">
+    <Position X="80.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAQAEAAAAAAAIgAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Atomic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Buffer" Collapsed="true">
+    <Position X="13.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ScopeLock" Collapsed="true">
+    <Position X="82.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>ScopeLock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Condition" Collapsed="true">
+    <Position X="89.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAKAQAAAAAAAAAAAAAgAAAAEAAAgAAAAAgQ=</HashCode>
+      <FileName>Condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::DecodeDataStream" Collapsed="true">
+    <Position X="91" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>rCqCCsEAAIAqCAAQsIJXAgxwWFUQQAgCAgAAAEBAAAA=</HashCode>
+      <FileName>DecodeDataStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::DefaultErrorHandler" Collapsed="true">
+    <Position X="34.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAAAQAAAQAAAAAAAAAABAABA=</HashCode>
+      <FileName>DefaultErrorHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::DynamicModule" Collapsed="true">
+    <Position X="75.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DynamicModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::EncodeDataStream" Collapsed="true">
+    <Position X="77" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ImiFBAAlkBkO0AkAaKIBgCYgkAwAQIAoAAAIAKhgACA=</HashCode>
+      <FileName>EncodeDataStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Exception" Collapsed="true">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACACAAAAAAAAAAAAAAAAABAAADAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::RTIinternalError" Collapsed="true">
+    <Position X="21.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringModule" Collapsed="true">
+    <Position X="75.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAtAFgAAAAAAAIACAAIAASBAoAAAAAAAAQQgBQliAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FDD1516EFileReader" Collapsed="true">
+    <Position X="78.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FDD1516EFileReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FDD1516FileReader" Collapsed="true">
+    <Position X="80.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FDD1516FileReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::InternalAmbassador" Collapsed="true">
+    <Position X="13.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>JgQAAiAAABAIQAIYhAQiQAAQAgAAARAhABCgAAAEgwA=</HashCode>
+      <FileName>InternalAmbassador.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Federate" Collapsed="true">
+    <Position X="71" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>0eQ4oClTpcACJMNYQGQ6RIBMQxQbSPECRBY2SCMjWik=</HashCode>
+      <FileName>Federate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FederateHandleLowerBoundTimeStampMap&lt;T&gt;" Collapsed="true">
+    <Position X="84" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABABAAAADAgAAAYAAIAAACYKAQACABAAAAAAAAABA=</HashCode>
+      <FileName>FederateHandleLowerBoundTimeStampMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FEDFileReader" Collapsed="true">
+    <Position X="91" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FEDFileReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringModuleBuilder" Collapsed="true">
+    <Position X="77" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBQAIAAAAAgkCgAVAIAAAIQAEAABAgCEAAQAACAQAA=</HashCode>
+      <FileName>FOMStringModuleBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Handle&lt;T&gt;" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAECAAEJAABAAQAEAAQAAAAIAAAJAAQAgAAAAAAQ=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::InitialClientStreamProtocol" Collapsed="true">
+    <Position X="57.5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACBAAACAAAAABEAAAEAAAAEAAAAAQAAAAgBAAAAAAA=</HashCode>
+      <FileName>InitialClientStreamProtocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::InitialServerStreamProtocol">
+    <Position X="60.5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAJAEAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>InitialServerStreamProtocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::InitialStreamProtocol" Collapsed="true">
+    <Position X="59.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BIABABAAAAQAAACAACEAAAAAAEgABAgAAQAgAAAAAQA=</HashCode>
+      <FileName>InitialStreamProtocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::InternalTimeManagement" Collapsed="true">
+    <Position X="42" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAEIKgAaAAioCAEAgBAEQAAAAAw4gACBAOCAAAACAAA=</HashCode>
+      <FileName>InternalTimeManagement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::URL" Collapsed="true">
+    <Position X="78.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAIICAIgACAAQwAAIUAQIgACAAACBAAACgZAAAIAA=</HashCode>
+      <FileName>URL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::_IntrusiveList&lt;T, Tag&gt;" Collapsed="true">
+    <Position X="9.75" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAgDECABBAgAAAAKEIAAASAAAAAICAAQUAAAAEBAA=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::_IntrusiveListIterator&lt;T, Tag&gt;" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAARwAAAEAAAAAAAAAgAAAABAI=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::_IntrusiveListHook&lt;Tag&gt;" Collapsed="true">
+    <Position X="75.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAQAkAAAAARABAAAAAAEAwAAAgAAAACAA=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::_ForwardIntrusiveListIterator&lt;T, Tag&gt;" Collapsed="true">
+    <Position X="0.75" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAQAEAAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::_ReverseIntrusiveListIterator&lt;T, Tag&gt;" Collapsed="true">
+    <Position X="4.25" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQBEAAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::_ListTag&lt;T, n&gt;" Collapsed="true">
+    <Position X="77" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::IntrusiveList&lt;T, tag&gt;" Collapsed="true">
+    <Position X="9.5" Y="21.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IntrusiveList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::IntrusiveUnorderedMap&lt;Key, T, _Hash, tag&gt;" Collapsed="true">
+    <Position X="77" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAECABBAAAAAAKAoAABSCAAAAICASAAgQAAEBAA=</HashCode>
+      <FileName>IntrusiveUnorderedMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::LeafServerThread" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAACAIAAAAwAAAAAEAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>LeafServerThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::LogStream" Collapsed="true">
+    <Position X="78.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAABAAABCIAAAANQACAAAAAAAA=</HashCode>
+      <FileName>LogStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::RangeBoundsValue" Collapsed="true">
+    <Position X="20.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABQAAEAAAAAAAAAAAAAEQAAAAAAAAAAEQEgEAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AttributeState" Collapsed="true">
+    <Position X="82.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAQAoAAAAAAAAAQAgAAAAAQA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ParameterValue" Collapsed="true">
+    <Position X="87.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAACgAAAIgAQAAAAAAAACAAQAgAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AttributeValue" Collapsed="true">
+    <Position X="84" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAQAAIAAQAgAAEAAAAAAQAgAAAAAQA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FederationExecutionInformation" Collapsed="true">
+    <Position X="87.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCAAAAAAAIAAAAAAAAAAAYAAAAAAAAAAAQAgAAABAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringTransportationType" Collapsed="true">
+    <Position X="85.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAAAAAQAAAAAAAABAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringDimension" Collapsed="true">
+    <Position X="89.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFQAAECAAAAAAAAAAAAAQAAAAAAAABAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringRoutingSpace" Collapsed="true">
+    <Position X="82.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAAAAAQAAAABAAgRAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringParameter" Collapsed="true">
+    <Position X="80.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAAAAAQAAAAAAAABAAQQkAAAAAAI=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringInteractionClass" Collapsed="true">
+    <Position X="91" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFgAAIAAAAAAAAAAAAAAQAAABJCACVAAQQkAACAACA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringAttribute" Collapsed="true">
+    <Position X="87.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFgAAAAAAAAAAAAAAAAAQAAABBCAAVAAQQkEACAACA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringObjectClass" Collapsed="true">
+    <Position X="78.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EANAAAAAAAAAAAAAAAAAAQAAAAEAAABAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringUpdateRate" Collapsed="true">
+    <Position X="87.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAIAAAAABAAAAEAAAAAQAAAAAAAABAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMStringSwitch" Collapsed="true">
+    <Position X="84" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAACAAAAAAAAQAABAAAABAAAQQggAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMTransportationType" Collapsed="true">
+    <Position X="91" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAQAAAQAAAAAAAABAAQQkAACAACA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMDimension" Collapsed="true">
+    <Position X="77" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFQAAEAIIAAAAAAAAAAAQAIAAAAAABAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMRoutingSpace" Collapsed="true">
+    <Position X="85.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgFiAAAIAIAAAAAAAAAAAQAAAAAAAABAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMParameter" Collapsed="true">
+    <Position X="84" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAACAgAAAAAAQAAAAAAAADAAQQkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMInteractionClass" Collapsed="true">
+    <Position X="78.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgHgAAIAAAAAIAAAAAAAAQAAAAACACBAgQQkAACAACA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMAttribute" Collapsed="true">
+    <Position X="75.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgFgAAAAAAAAAAAQAAAAAQAAAAACAABAAQQkAACQASA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMObjectClass" Collapsed="true">
+    <Position X="82.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAFAAAAEAEAAAAAAAAAAAQAEAEEAAABAAQQkAAAAACA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMUpdateRate" Collapsed="true">
+    <Position X="75.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAABAAiAEAAAAAQAAAAAAAABAAQwkAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMSwitch" Collapsed="true">
+    <Position X="89.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAACAAAAAAAAQAAAAAAABAEAQQggAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::FOMModule" Collapsed="true">
+    <Position X="80.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAtAFwAAAAEAAIACAAIAASBAoAAAAAAAAQQgBQhiAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::MessageEncodingRegistry" Collapsed="true">
+    <Position X="80.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAABAAABAAAAAAAAAAgA=</HashCode>
+      <FileName>MessageEncodingRegistry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::LocalMessageQueue" Collapsed="true">
+    <Position X="47.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAIEAMCAAhAA=</HashCode>
+      <FileName>MessageQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ThreadMessageQueue" Collapsed="true">
+    <Position X="49.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAAAAAACAAACAAwAAAAAAIEAMCAAgAA=</HashCode>
+      <FileName>MessageQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Mutex" Collapsed="true">
+    <Position X="82.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAEAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAAQA=</HashCode>
+      <FileName>Mutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::NestedProtocolLayer" Collapsed="true">
+    <Position X="55" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQBEAAAAAEAACEAAAAAQAAABAAAAQAAAAAAAAA=</HashCode>
+      <FileName>NestedProtocolLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::NetworkServer" Collapsed="true">
+    <Position X="66.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEDIAQARAAAAYAgEAwCAAAAIAAAQAAAACAwAAAAAAI=</HashCode>
+      <FileName>NetworkServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Options" Collapsed="true">
+    <Position X="85.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAABABIAAAAAAAAxAAAAAAIAAAAAAAJCAAA=</HashCode>
+      <FileName>Options.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ParenthesesReader" Collapsed="true">
+    <Position X="89.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAEAAAIAAAAABAAAAAAEAAAAAAAAAAAABIAA=</HashCode>
+      <FileName>ParenthesesReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::PooledMessageList" Collapsed="true">
+    <Position X="91" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAgAAAAAEAAAACAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>PooledMessageList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ProtocolSocketEvent">
+    <Position X="8.5" Y="6.5" Width="2.75" />
+    <NestedTypes>
+      <Struct Name="OpenRTI::ProtocolSocketEvent::ProtocolSocket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ProtocolSocketEvent.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAEAAAAAAEDEAQAAAQAAABAAAAQAgAAAAAAA=</HashCode>
+      <FileName>ProtocolSocketEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Rand" Collapsed="true">
+    <Position X="75.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAIAA=</HashCode>
+      <FileName>Rand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::RangeBounds" Collapsed="true">
+    <Position X="20.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABAAAAEAAAAAAACAAAEACAAAAAAgAAAAAA=</HashCode>
+      <FileName>RangeBounds.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Referenced" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACAAAAAAAAAAABAAAQAAIAAAAIAABABAgAAAAEAA=</HashCode>
+      <FileName>Referenced.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Region" Collapsed="true">
+    <Position X="77" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABBFAgABAAAAAAAAAAQAAAAAAAAAAAQAggAAAAgA=</HashCode>
+      <FileName>Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::RegionSet" Collapsed="true">
+    <Position X="78.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAADAAAAAAAAIgAACAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>RegionSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ScopeUnlock" Collapsed="true">
+    <Position X="84" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>ScopeUnlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerConfigContentHandler" Collapsed="true">
+    <Position X="31.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAgABAAEABCABAEEAAoEAABAEAgAAAAgAAAA=</HashCode>
+      <FileName>ServerConfigContentHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerNode" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAIgASAAAAIAIAAAAAAgAIQgAAAAAAA=</HashCode>
+      <FileName>ServerNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::WeakPtr&lt;T&gt;" Collapsed="true">
+    <Position X="82.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAkAAkAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>WeakPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SingletonPtr&lt;T&gt;" Collapsed="true">
+    <Position X="89.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIQAAAAQAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>SingletonPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketAddress" Collapsed="true">
+    <Position X="91" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAgAAQASAAAAAAAAAgECgwBAgAAAQ=</HashCode>
+      <FileName>SocketAddress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketPacket">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAoAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketPacket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketServer" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACAAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>SocketServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketServerTCP">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQIAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>SocketServerTCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketStream" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAABAAAAgAAACIAAAAAAAAQIAAAAAAA=</HashCode>
+      <FileName>SocketStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketTCP">
+    <Position X="21.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAABgAAAAAAAAIAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>SocketTCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketUDP">
+    <Position X="19.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketUDP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::VariableLengthData" Collapsed="true">
+    <Position X="80.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qUFUAKGARTmIoSAKIMrJpxsSQBBIFpoSgQO6BDqgCyQ=</HashCode>
+      <FileName>VariableLengthData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketData" Collapsed="true">
+    <Position X="21.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketServerPipe" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQIAAAAAAAAAgAAAAAAAIAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>SocketServerPipe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketPipe" Collapsed="true">
+    <Position X="23.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAABgAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketPipe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::SocketServerAcceptEvent" Collapsed="true">
+    <Position X="12" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAAAABAAADAAAAAAAAAgBAIAAQAAAAAAAAA=</HashCode>
+      <FileName>SocketServerAcceptEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::StreamBufferProtocol" Collapsed="true">
+    <Position X="60.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACIAAiAAAADAAARCAEAgAFAgEARAhAAAgAgw=</HashCode>
+      <FileName>StreamBufferProtocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::TemplateTimeManagement&lt;T, L&gt;" Collapsed="true">
+    <Position X="41.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>JAUBAuCAACA4SYwIaQEEQAISgKDIDgAowwCIBJuGmFg=</HashCode>
+      <FileName>TemplateTimeManagement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerPool" Collapsed="true">
+    <Position X="85.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAIAFAAAAAABAAAAACAgAAAAA=</HashCode>
+      <FileName>TestLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::RTITest" Collapsed="true">
+    <Position X="80.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAIAAQQAAAQAAAAAAgBAAAAoUCAAAAAQAwKgAIA=</HashCode>
+      <FileName>TestLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::Thread" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgCAAQAAAAAgAAAAAAAAAAAAAAAEABAgAAAAAAA=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::AbstractThreadLocal" Collapsed="true">
+    <Position X="6.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAQAAAAgAAAAAAAAAAAgAAAgAQAAAAA=</HashCode>
+      <FileName>ThreadLocal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ThreadLocal&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThreadLocal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ThreadServer" Collapsed="true">
+    <Position X="68.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAAAAAAEAQCAAAgAAgAAAAAACAwAAAAAAA=</HashCode>
+      <FileName>ThreadServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::TightBE1MessageEncoding" Collapsed="true">
+    <Position X="63.5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABEACAAAAAAAAAAAAAAAAAEQAAAAAAAAEAAkAAAAAAA=</HashCode>
+      <FileName>TightBE1MessageEncoding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::TimeManagement&lt;T&gt;" Collapsed="true">
+    <Position X="42.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEEAKCAAAAoQQAIAQEAAAAAQACAAAAIAgAAAIsEgEA=</HashCode>
+      <FileName>TimeManagement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::WeakReferenced" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACAAAgAAAAAAABAAAQAACAAAAAAABABAgAAAAAQA=</HashCode>
+      <FileName>WeakReferenced.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ZLibProtocolLayer" Collapsed="true">
+    <Position X="55.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAAAACEAAABAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>ZLibProtocolLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::XML::ExpatXMLAttributes" Collapsed="true">
+    <Position X="3.5" Y="21.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAEACAAAAAQEAAAAQAAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ExpatXMLReader.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::XML::Attributes" Collapsed="true">
+    <Position X="3.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEACAAAAAAEAAAAQAAEAABAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::XML::ContentHandler" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAACCBAAAAAAADAAAEAgAAAAAAAAA=</HashCode>
+      <FileName>ContentHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::XML::ErrorHandler" Collapsed="true">
+    <Position X="34.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAEAAAAAAAAQAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ErrorHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::XML::ExpatXMLReader" Collapsed="true">
+    <Position X="45" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ExpatXMLReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::XML::XMLReader" Collapsed="true">
+    <Position X="45" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAQQAAAAAAAAAAAAhAAAAAAAAAAAQAJAA=</HashCode>
+      <FileName>XMLReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegionHandle" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAEAAAAAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::BroadcastConnectHandleSet" Collapsed="true">
+    <Position X="85.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAABAAAAAAAAIAAACBAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::PublishSubscribe" Collapsed="true">
+    <Position X="2" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAgAAAEgAAQAAAAgAAIAQAAAAAAAgggAAADAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::HandleEntity&lt;T, H&gt;" Collapsed="true">
+    <Position X="21.75" Y="19.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::HandleListEntity&lt;T, H&gt;" Collapsed="true">
+    <Position X="25.5" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIACA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::HandleStringEntity&lt;T, H, S&gt;" Collapsed="true">
+    <Position X="18" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAIAAIACAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ListPair&lt;T&gt;" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Region" Collapsed="true">
+    <Position X="17.75" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgQAAAAABAAAAAAAAAgAAAAAAAAAgAAABABA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ClassAttribute" Collapsed="true">
+    <Position X="13.25" Y="19" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAAAQAQAAAAAAAAAAIAAAAACkAAAAAQA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ObjectInstance" Collapsed="true">
+    <Position X="19.25" Y="16" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgAAABAgAAIASAIAgACBIAAQABAAIAkQCCAChA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::InstanceAttribute" Collapsed="true">
+    <Position X="21" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAEAAIAAQACAIAgAAAAAAAoIEAAAgAAAAAQA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::FederationConnect" Collapsed="true">
+    <Position X="85.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABgECAAERQRAAEAEIIAAAABpAACBAAAAAwICAAChA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ObjectInstanceConnect" Collapsed="true">
+    <Position X="28.5" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AGAAQAAAAAAAAQAAAEAAAAAAAAAAAEAAAAAgAgAAAgA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Federation" Collapsed="true">
+    <Position X="27.5" Y="16" Width="3" />
+    <TypeIdentifier>
+      <HashCode>HCCgYIMIpshYTFISSANoIIAYIggSsQRRQCCkAkABGAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ObjectClass" Collapsed="true">
+    <Position X="8.5" Y="19" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQYAASEAEBACIACIBAI5ABAxEAGAgBRAAAlAhABEhA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Federate" Collapsed="true">
+    <Position X="31.25" Y="16" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEA4EBAQAAAAEAAQAAAAQAACFZIJgIkGwAAKhE=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Synchronization" Collapsed="true">
+    <Position X="77" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAACBAAABAIAAAAhAAAAAAAIIAEAACARAgAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::SynchronizationFederate" Collapsed="true">
+    <Position X="32.5" Y="11" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAgBAAAAIACAAAAgAAAACACAAABAAgAAAAAgA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::NodeConnect" Collapsed="true">
+    <Position X="84" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAQBAQBAQAAEAEAAEABAAAQAAABgEEAkIAAAAQA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Dimension" Collapsed="true">
+    <Position X="11.5" Y="17.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAQAAEAIIBAAAAAAAAAEAAAAAAAQABAAAAkAgAAAhA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Module" Collapsed="true">
+    <Position X="24.75" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EICAAwAAkABQCAADgAAAAKBAhAACQAABgBAgCgBwAhA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::DimensionModule" Collapsed="true">
+    <Position X="1.25" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAADAAAAAAAAAAACAAAAAAACAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ModuleEntity&lt;T, H, S&gt;" Collapsed="true">
+    <Position X="8.25" Y="16" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ModuleClassEntity&lt;T, H, S&gt;" Collapsed="true">
+    <Position X="4.5" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::UpdateRate" Collapsed="true">
+    <Position X="8" Y="17.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgABAAgAEQAAAAAAAAAAAAABAAAgkAQAQAhA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::UpdateRateModule" Collapsed="true">
+    <Position X="3.75" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAAAAAAAAIAAAAAQAAAAAAQAAggAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::InteractionClass" Collapsed="true">
+    <Position X="4" Y="19" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AACxAgCAACBQIACAAhAQIJIAQkACQADIgAkkAIDgAzA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::InteractionClassModule" Collapsed="true">
+    <Position X="6.5" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABGAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAACA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ParameterDefinitionModule" Collapsed="true">
+    <Position X="9.25" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABGAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ParameterDefinition" Collapsed="true">
+    <Position X="15" Y="16" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAAABAAAgAAAAAAACAAAAAAADgAAAkAAIAAgA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ClassParameter" Collapsed="true">
+    <Position X="24.75" Y="11" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEEAAgEAAAAAACgAAAAAAAAAAAAAAICAAAAgAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::ObjectClassModule" Collapsed="true">
+    <Position X="12.25" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAAAAAAQAAQAAAAAAAAAABAAAkAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::AttributeDefinitionModule" Collapsed="true">
+    <Position X="15" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAAAAAAQAQAAAAAAAAAAAACAAkAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::AttributeDefinition" Collapsed="true">
+    <Position X="23.5" Y="16" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACBAAAAQQRAAAAAARgACAABAAAAsAACAASA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenRTI::ServerModel::Node" Collapsed="true">
+    <Position X="0.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEAAAIQAIABAUAIEAGAIACAgAEBREgQAQAQgBAUAAgQ=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="OpenRTI::ClockWin32" Collapsed="true">
+    <Position X="75.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win32\ClockWin32.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpenRTI::NotificationHandleWrapper&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AbstractMessageReceiver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpenRTI::Hash&lt;T&gt;" Collapsed="true">
+    <Position X="77" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IntrusiveUnorderedMap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpenRTI::Hash&lt;std::string&gt;" Collapsed="true">
+    <Position X="78.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IntrusiveUnorderedMap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpenRTI::XML::UserData" Collapsed="true">
+    <Position X="87.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQIAA=</HashCode>
+      <FileName>ExpatXMLReader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XML_ParserStruct" Collapsed="true">
+    <Position X="89.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>S47FAg6SAGELMAgEAIFWAU8eEYDKCYABQugGBoBbQCY=</HashCode>
+      <FileName>xml\xmlparse.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="normal_encoding" Collapsed="true">
+    <Position X="84" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>xml\xmltok.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="unknown_encoding" Collapsed="true">
+    <Position X="85.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAEAAAAAgAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>xml\xmltok.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AbstractNotificationHandle" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractNotificationHandle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Hash&lt;MessageRetractionHandle&gt;" Collapsed="true">
+    <Position X="80.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Hash&lt;RegionHandle&gt;" Collapsed="true">
+    <Position X="82.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="ICHAR" Collapsed="true">
+    <Position X="91" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>xml\xmlparse.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KEY" Collapsed="true">
+    <Position X="77" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>xml\xmlparse.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Processor" Collapsed="true">
+    <Position X="80.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>xml\xmlparse.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PROLOG_HANDLER" Collapsed="true">
+    <Position X="82.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>xml\xmlrole.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::MessageList" Collapsed="true">
+    <Position X="78.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractMessage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::SocketEventList" Collapsed="true">
+    <Position X="89.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractSocketEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::BufferRange" Collapsed="true">
+    <Position X="91" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ConstBufferRange" Collapsed="true">
+    <Position X="78.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ConnectHandleSet" Collapsed="true">
+    <Position X="77" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AttributeHandleSet" Collapsed="true">
+    <Position X="77" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DimensionHandleSet" Collapsed="true">
+    <Position X="82.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ParameterHandleSet" Collapsed="true">
+    <Position X="91" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RegionHandleSet" Collapsed="true">
+    <Position X="75.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FederateHandleSet" Collapsed="true">
+    <Position X="84" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ObjectInstanceHandleSet" Collapsed="true">
+    <Position X="85.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AttributeHandleVector" Collapsed="true">
+    <Position X="80.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DimensionHandleVector" Collapsed="true">
+    <Position X="87.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ParameterHandleVector" Collapsed="true">
+    <Position X="75.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RegionHandleVector" Collapsed="true">
+    <Position X="82.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FederateHandleVector" Collapsed="true">
+    <Position X="87.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ObjectInstanceHandleVector" Collapsed="true">
+    <Position X="87.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AttributeHandleVectorRegionHandleVectorPair" Collapsed="true">
+    <Position X="82.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AttributeHandleVectorRegionHandleVectorPairVector" Collapsed="true">
+    <Position X="84" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::Bool" Collapsed="true">
+    <Position X="89.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::String" Collapsed="true">
+    <Position X="91" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::Double" Collapsed="true">
+    <Position X="89.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::AttributeHandleVector" Collapsed="true">
+    <Position X="78.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleVector" Collapsed="true">
+    <Position X="85.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ParameterHandleVector" Collapsed="true">
+    <Position X="77" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::DimensionHandleVector" Collapsed="true">
+    <Position X="85.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::DimensionHandleSet" Collapsed="true">
+    <Position X="84" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ObjectInstanceHandleVector" Collapsed="true">
+    <Position X="89.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleVector" Collapsed="true">
+    <Position X="80.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ModuleHandleVector" Collapsed="true">
+    <Position X="80.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringVector" Collapsed="true">
+    <Position X="87.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringSet" Collapsed="true">
+    <Position X="84" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleBoolPair" Collapsed="true">
+    <Position X="91" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleBoolPairVector" Collapsed="true">
+    <Position X="75.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::DimensionHandleRangeBoundsValuePair" Collapsed="true">
+    <Position X="80.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionValue" Collapsed="true">
+    <Position X="84" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionValueList" Collapsed="true">
+    <Position X="85.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleDimensionHandleSetPair" Collapsed="true">
+    <Position X="85.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleDimensionHandleSetPairVector" Collapsed="true">
+    <Position X="87.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleSpaceHandlePair" Collapsed="true">
+    <Position X="77" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleSpaceHandlePairVector" Collapsed="true">
+    <Position X="78.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleRegionValuePair" Collapsed="true">
+    <Position X="89.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::RegionHandleRegionValuePairVector" Collapsed="true">
+    <Position X="91" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::InteractionClassHandleRegionValueListPair" Collapsed="true">
+    <Position X="75.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::AttributeHandleRegionValueListPair" Collapsed="true">
+    <Position X="75.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::AttributeStateVector" Collapsed="true">
+    <Position X="85.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ParameterValueVector" Collapsed="true">
+    <Position X="78.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::AttributeValueVector" Collapsed="true">
+    <Position X="87.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleSaveStatusPair" Collapsed="true">
+    <Position X="80.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleSaveStatusPairVector" Collapsed="true">
+    <Position X="82.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleRestoreStatusPair" Collapsed="true">
+    <Position X="77" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederateHandleRestoreStatusPairVector" Collapsed="true">
+    <Position X="78.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FederationExecutionInformationVector" Collapsed="true">
+    <Position X="89.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ObjectInstanceHandleNamePair" Collapsed="true">
+    <Position X="82.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ObjectInstanceHandleNamePairVector" Collapsed="true">
+    <Position X="84" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ConfigurationParameterMap" Collapsed="true">
+    <Position X="75.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringTransportationTypeList" Collapsed="true">
+    <Position X="82.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringDimensionList" Collapsed="true">
+    <Position X="87.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringRoutingSpaceList" Collapsed="true">
+    <Position X="78.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringParameterList" Collapsed="true">
+    <Position X="77" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringInteractionClassList" Collapsed="true">
+    <Position X="89.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringAttributeList" Collapsed="true">
+    <Position X="85.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringObjectClassList" Collapsed="true">
+    <Position X="75.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringUpdateRateList" Collapsed="true">
+    <Position X="84" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringSwitchList" Collapsed="true">
+    <Position X="80.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMStringModuleList" Collapsed="true">
+    <Position X="91" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMTransportationTypeList" Collapsed="true">
+    <Position X="87.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMDimensionList" Collapsed="true">
+    <Position X="75.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMRoutingSpaceList" Collapsed="true">
+    <Position X="84" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMParameterList" Collapsed="true">
+    <Position X="82.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMInteractionClassList" Collapsed="true">
+    <Position X="77" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMAttributeList" Collapsed="true">
+    <Position X="91" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMObjectClassList" Collapsed="true">
+    <Position X="80.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMUpdateRateList" Collapsed="true">
+    <Position X="89.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMSwitchList" Collapsed="true">
+    <Position X="85.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::FOMModuleList" Collapsed="true">
+    <Position X="78.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::ServerModel::PropagationTypeConnectHandlePair" Collapsed="true">
+    <Position X="84" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::SocketAddressList" Collapsed="true">
+    <Position X="87.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketAddress.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringList" Collapsed="true">
+    <Position X="75.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringPair" Collapsed="true">
+    <Position X="78.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringPairList" Collapsed="true">
+    <Position X="80.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringPairVector" Collapsed="true">
+    <Position X="82.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringMap" Collapsed="true">
+    <Position X="77" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::StringStringListMap" Collapsed="true">
+    <Position X="85.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OpenRTI::VariableLengthDataList" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VariableLengthData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="OpenRTI::CallbackModel" Collapsed="true">
+    <Position X="75.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::OrderType" Collapsed="true">
+    <Position X="84" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::TransportationType" Collapsed="true">
+    <Position X="87.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::SubscriptionType" Collapsed="true">
+    <Position X="84" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::PublicationType" Collapsed="true">
+    <Position X="87.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::ResignAction" Collapsed="true">
+    <Position X="91" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACACAAAAABAAAAAAAAAoAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::RestoreFailureReason" Collapsed="true">
+    <Position X="75.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAgAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::RestoreStatus" Collapsed="true">
+    <Position X="77" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAIAAAAAAAAgAAAAAAAAAQgAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::SaveFailureReason" Collapsed="true">
+    <Position X="78.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAIAAAAAAAAAAAAQAAACACAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::SaveStatus" Collapsed="true">
+    <Position X="80.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAgAAAAAAAAAAAAAAAAAAAEAACAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::ServiceGroupIndicator" Collapsed="true">
+    <Position X="82.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAABAAAAAAAAAQCAAAAAAAAAAABAAAAAAEAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::LowerBoundTimeStampCommitType" Collapsed="true">
+    <Position X="82.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAACAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::SwitchesType" Collapsed="true">
+    <Position X="85.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAQAAAAAAAAAAAAAAAAAAQAAIAAABEIAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::CreateFederationExecutionResponseType" Collapsed="true">
+    <Position X="77" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAQAAAEACACAAAAAAAAAFAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::DestroyFederationExecutionResponseType" Collapsed="true">
+    <Position X="78.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAACAAgAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::JoinFederationExecutionResponseType" Collapsed="true">
+    <Position X="80.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAAAAAAAAAEAAAAAAAAABAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::RegisterFederationSynchronizationPointResponseType" Collapsed="true">
+    <Position X="89.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::XML::Type" Collapsed="true">
+    <Position X="89.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAJAAAgAAAAAAAAAAAAAFAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Attributes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenRTI::ServerModel::PropagationType" Collapsed="true">
+    <Position X="85.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAGAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerModel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

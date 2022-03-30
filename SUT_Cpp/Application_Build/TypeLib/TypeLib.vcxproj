@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Deserializer.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DistributedObjectBase.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DoConsumedMethod.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DoMethod.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\DoProvidedMethod.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel\Panel_Initialization.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel\_Internal.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Panel\_Internal\_Internal_Initialization.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Path.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\IHeating.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\ISensor.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\RoomTemperatureControl_Initialization.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\Serializer.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\ThreadContext.cpp" />
+    <ClCompile Include="..\..\SilAdapter\TypeLib\src\TypeLib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Accessor.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Deserializer.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DistributedObject.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DistributedObjectBase.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoConsumedData.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoConsumedMethod.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoData.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoMethod.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoProvidedData.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\DoProvidedMethod.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\EmbeddedMember.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Optional.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel\Panel_Types.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel\_Internal.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Panel\_Internal\_Internal_Types.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\IHeating.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\ISensor.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\RoomTemperatureControl_Types.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\RoomTemperatureControl\State.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Serialization.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\Serializer.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\StrongType.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\ThreadContext.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\include\TypeLib\TypeLib.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\Panel\Panel_Initialization.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\Panel\_Internal\_Internal_Initialization.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\Path.hpp" />
+    <ClInclude Include="..\..\SilAdapter\TypeLib\src\RoomTemperatureControl\RoomTemperatureControl_Initialization.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{74213DAF-229E-4592-8B36-D48D7A60294F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TypeLib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\SilAdapter\TypeLib\include;..\..\SilAdapter\TypeLib\src\;..\..\SilAdapter\TypeLibBase\include;..\..\SilAdapter\Dependencies\Cla\Cla\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

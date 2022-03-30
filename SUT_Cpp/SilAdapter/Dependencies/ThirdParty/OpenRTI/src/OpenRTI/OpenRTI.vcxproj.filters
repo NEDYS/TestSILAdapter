@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMessageEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMessageSender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractProtocolLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractProtocolSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractServerNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSocketEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpatXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDD1516EFileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Federate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FEDFileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialClientStreamProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialServerStreamProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialStreamProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalAmbassador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalTimeManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeafServerThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageEncodingRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NestedProtocolLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParenthesesReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolSocketEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConfigContentHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketEventDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketServerAcceptEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamBufferProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TightBE1MessageEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="URL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeakReferenced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\ErrnoWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\DynamicModuleWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketPacketWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketPipeWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketAddressWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketDataWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketEventDispatcherWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketServerTCPWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketServerWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketStreamWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketTCPWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketUDPWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\ThreadWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\ThreadLocalWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketServerPipeWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="dprintf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\NetworkStatisticsWin32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\PerformanceCounterStopWatch.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableLengthDataTuple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlrole.c">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmltok.c">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlparse.c">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="mom\MomFederate.cpp">
+      <Filter>Source Files\mom</Filter>
+    </ClCompile>
+    <ClCompile Include="mom\MomFederateMetrics.cpp">
+      <Filter>Source Files\mom</Filter>
+    </ClCompile>
+    <ClCompile Include="mom\MomFederation.cpp">
+      <Filter>Source Files\mom</Filter>
+    </ClCompile>
+    <ClCompile Include="mom\MomInteractions.cpp">
+      <Filter>Source Files\mom</Filter>
+    </ClCompile>
+    <ClCompile Include="mom\MomManager.cpp">
+      <Filter>Source Files\mom</Filter>
+    </ClCompile>
+    <ClCompile Include="mom\MomServer.cpp">
+      <Filter>Source Files\mom</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\BasicDataElements.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\DataElement.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\HLAfixedArray.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\HLAfixedRecord.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\HLAhandle.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\HLAvariableArray.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\HLAvariantRecord.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\HLAopaqueData.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsTimeout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImmediateCallbackDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9EE5D17F-9483-399A-A6CE-662AEF0771B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{b8daee12-caf7-4ba7-b7b9-02a9b54f5af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\posix">
+      <UniqueIdentifier>{d8edc727-abd5-49bc-9d9e-21514928c2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2d9d25c5-1ecd-4632-bc83-b0c34eda7d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codegen">
+      <UniqueIdentifier>{1e16f8bc-1361-4064-b2eb-759378e9f997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xml">
+      <UniqueIdentifier>{c871d423-7a8b-48fb-9458-1f996ca78647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mom">
+      <UniqueIdentifier>{0b9e019c-3d49-4492-87ef-77f87d8990b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\encoding">
+      <UniqueIdentifier>{d8d0c631-a699-4118-aad9-ff9ee02c01b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractConnect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractLogicalTime.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessageDispatcher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessageEncoding.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessageQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessageReceiver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessageSender.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractProtocolLayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractProtocolSocket.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractServerNode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSocketEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ambassador.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Atomic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecodeDataStream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultErrorHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicModule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncodeDataStream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpatXMLReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Export.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDD1516EFileReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Federate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederateHandleLowerBoundTimeStampMap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FEDFileReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FOMStringModuleBuilder.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleAllocator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialClientStreamProtocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialServerStreamProtocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialStreamProtocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalAmbassador.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalTimeManagement.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrusiveList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrusiveUnorderedMap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeafServerThread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogStream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageEncodingRegistry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NestedProtocolLayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vsbuild\OpenRTIConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParenthesesReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PooledMessageList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolSocketEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeBounds.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Referenced.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionSet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeLock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeUnlock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConfigContentHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerNode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerOptions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPtr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonPtr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketAddress.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketEventDispatcher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketPacket.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketPipe.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServerAcceptEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServerPipe.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServerTCP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketStream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketTCP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUDP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamBufferProtocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateTimeManagement.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLocal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TightBE1MessageEncoding.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManagement.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="URL.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueImplementation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableLengthData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakPtr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakReferenced.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\ErrnoWin32.h">
+      <Filter>Source Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\SocketAddressPrivateDataWin32.h">
+      <Filter>Source Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\SocketPrivateDataWin32.h">
+      <Filter>Source Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="dprintf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractNotificationHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractNetworkStatistics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkStatistics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\NetworkStatisticsWin32.h">
+      <Filter>Source Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\PerformanceCounterStopWatch.h">
+      <Filter>Source Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenRTIVersion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableLengthDataTuple.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmltok_impl.c">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmltok_ns.c">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\ascii.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\asciitab.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\expat.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\expat_external.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\iasciitab.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\internal.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\latin1tab.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\nametab.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\utf8tab.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\winconfig.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlrole.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmltok.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmltok_impl.h">
+      <Filter>Source Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomFederate.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomFederateMetrics.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomFederation.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomInteractions.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomManager.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomServer.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\BasicDataElements.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\DataElement.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\Encoding.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\EncodingConfig.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\EncodingExceptions.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\HLAfixedArray.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\HLAfixedRecord.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\HLAhandle.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\HLAopaqueData.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\HLAvariableArray.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\HLAvariantRecord.h">
+      <Filter>Source Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\MomTypes.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="mom\AbstractFederateMetrics.h">
+      <Filter>Source Files\mom</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugNew.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsTimeout.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmediateCallbackDispatcher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="codegen\messagegen.py">
+      <Filter>codegen</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenRTI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="codegen\Message.xml">
+      <Filter>codegen</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+#include <WINVER.H>
+#include "OpenRTIVersion.h"
+
+// Normal version for Win32 API
+#define OPENRTI_FILEDESCRIPTION   "rtinode"
+#define OPENRTI_FF                0
+#define OPENRTI_SPECIALBUILD      ""  
+#define OPENRTI_COMMENTS          ""
+
+
+1 VERSIONINFO
+FILEVERSION        OPENRTI_FILE_VERSION
+PRODUCTVERSION     OPENRTI_PRODUCT_VERSION
+FILEFLAGS          OPENRTI_FF
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "000004E4"
+  {
+   VALUE "FileDescription",  OPENRTI_FILEDESCRIPTION   "\000"
+   VALUE "InternalName",     "rtinode"                 "\000"
+   VALUE "OriginalFilename", "rtinode.exe"             "\000"
+   VALUE "FileVersion",      OPENRTI_FILE_VERSION_STRING     "\000"
+   VALUE "LegalCopyright",   OPENRTI_COPYRIGHT_STRING        "\000"
+   VALUE "ProductName",      OPENRTI_PRODUCT_NAME     "\000"
+   VALUE "ProductVersion",   OPENRTI_PRODUCT_VERSION_STRING  "\000"
+   VALUE "Comments",         OPENRTI_COMMENTS          "\000"
+  }
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0, 1252
+ }
+}
